@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jamia Masjid Imam Shafi Ahl-e-Hadith | Islamabad, Pakistan</title>
+  <meta name="description"
+    content="Jamia Masjid Imam Shafi Ahl-e-Hadith — a place of worship, learning, and community in Islamabad, Pakistan. Join us for daily prayers, Jummah, and Quranic education." />
+  <meta name="theme-color" content="#0d2b1d" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jamia Masjid Imam Shafi Ahl-e-Hadith" />
+  <meta property="og:description" content="A place of worship, learning, and community in Islamabad, Pakistan." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_PK" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="image" href="assets/images/hero.jpg" fetchpriority="high" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Jamia Masjid Imam Shafi — home">
+        <span class="logo-icon" aria-hidden="true">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 2C16 2 6 8 6 18C6 23.523 10.477 28 16 28C21.523 28 26 23.523 26 18C26 8 16 2 16 2Z"
+              fill="currentColor" opacity="0.85" />
+            <path d="M10 18H22" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+            <path d="M16 10V18" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+            <rect x="13" y="26" width="6" height="3" rx="1" fill="currentColor" opacity="0.6" />
+            <rect x="7" y="28" width="18" height="2" rx="1" fill="currentColor" opacity="0.4" />
+          </svg>
+        </span>
+        <span class="logo-text">Jamia Masjid<br><em>Imam Shafi</em></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#prayer-times" class="nav-link">Prayer Times</a>
+        <a href="#programs" class="nav-link">Programs</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-donate" aria-label="Contact the masjid">Contact</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-bg" role="img" aria-label="Placeholder for a mosque exterior photograph">
+        <div class="hero-overlay"></div>
+        <div class="hero-pattern" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow" aria-label="Location">Islamabad, Pakistan</p>
+        <h1 class="hero-title" id="hero-heading">
+          Jamia Masjid<br>
+          <span class="hero-title-sub">Imam Shafi Ahl-e-Hadith</span>
+        </h1>
+        <p class="hero-tagline">A sanctuary of prayer, knowledge, and community — open to all.</p>
+        <div class="hero-buttons">
+          <a href="#prayer-times" class="btn btn-primary">View Prayer Times</a>
+          <a href="https://www.google.com/maps/place/Jamia+Masjid+Imam+Shafi+Ahl+e+Hadith/@33.6540714,72.9562569,17z"
+            target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+            Get Directions
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ PRAYER TIMES ═══════════════════════════════ -->
+    <section class="section prayer-times" id="prayer-times" aria-labelledby="prayer-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 id="prayer-heading">Prayer Times</h2>
+          <p class="section-sub">Daily calculated times for Islamabad. Please confirm locally for the most accurate schedule.</p>
+        </div>
+
+        <div class="prayer-grid">
+          <article class="prayer-card reveal" style="--delay:0.05s">
+            <div class="prayer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+            </div>
+            <h3>Fajr</h3>
+            <p class="prayer-time" data-prayer-time="Fajr">Loading...</p>
+            <p class="prayer-note">Dawn Prayer</p>
+          </article>
+
+          <article class="prayer-card reveal" style="--delay:0.1s">
+            <div class="prayer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+            </div>
+            <h3>Dhuhr</h3>
+            <p class="prayer-time" data-prayer-time="Dhuhr">Loading...</p>
+            <p class="prayer-note">Midday Prayer</p>
+          </article>
+
+          <article class="prayer-card reveal" style="--delay:0.15s">
+            <div class="prayer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M17 18a5 5 0 0 0-10 0" />
+                <line x1="12" y1="2" x2="12" y2="9" />
+                <line x1="4.22" y1="10.22" x2="5.64" y2="11.64" />
+                <line x1="1" y1="18" x2="3" y2="18" />
+                <line x1="21" y1="18" x2="23" y2="18" />
+                <line x1="18.36" y1="11.64" x2="19.78" y2="10.22" />
+              </svg>
+            </div>
+            <h3>Asr</h3>
+            <p class="prayer-time" data-prayer-time="Asr">Loading...</p>
+            <p class="prayer-note">Afternoon Prayer</p>
+          </article>
+
+          <article class="prayer-card reveal" style="--delay:0.2s">
+            <div class="prayer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+              </svg>
+            </div>
+            <h3>Maghrib</h3>
+            <p class="prayer-time" data-prayer-time="Maghrib">Loading...</p>
+            <p class="prayer-note">Sunset Prayer</p>
+          </article>
+
+          <article class="prayer-card reveal" style="--delay:0.25s">
+            <div class="prayer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
+              </svg>
+            </div>
+            <h3>Isha</h3>
+            <p class="prayer-time" data-prayer-time="Isha">Loading...</p>
+            <p class="prayer-note">Night Prayer</p>
+          </article>
+
+          <article class="prayer-card prayer-card--jummah reveal" style="--delay:0.3s">
+            <div class="prayer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <h3>Jummah</h3>
+            <p class="prayer-time" data-prayer-time="Jummah">Update Soon</p>
+            <p class="prayer-note">Friday Congregation</p>
+          </article>
+        </div>
+
+        <p class="prayer-disclaimer reveal">
+          ﷽ — Prayer times vary by season. Please contact the masjid or consult a local Islamic calendar for precise
+          timings.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ ABOUT ═══════════════════════════════════════ -->
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image reveal-left">
+            <div class="about-img-wrap">
+              <img src="assets/images/about.jpg"
+                alt="Placeholder for a mosque worship photograph; replace with the final image" loading="lazy"
+                decoding="async" width="700" height="500" />
+            </div>
+            <div class="about-badge" aria-hidden="true">
+              <span>Ahl-e-Hadith</span>
+            </div>
+          </div>
+
+          <div class="about-text reveal-right">
+            <h2 id="about-heading">A Home for Worship &amp; Learning</h2>
+            <p>
+              Jamia Masjid Imam Shafi Ahl-e-Hadith is a masjid rooted in the tradition of following
+              the Quran and authentic Sunnah. Named in honour of Imam Muhammad ibn Idris al-Shafi'i,
+              the masjid strives to uphold scholarship, sincerity, and community service.
+            </p>
+            <p>
+              Located in Islamabad, it serves the local Muslim community through congregational
+              prayers, Quranic education, and regular programmes for men, women, and youth —
+              welcoming all who seek knowledge and closeness to Allah.
+            </p>
+            <div class="about-values">
+              <div class="value-pill">Quran &amp; Sunnah</div>
+              <div class="value-pill">Community</div>
+              <div class="value-pill">Education</div>
+              <div class="value-pill">Open to All</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ PROGRAMS ═══════════════════════════════════ -->
+    <section class="section programs" id="programs" aria-labelledby="programs-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 id="programs-heading">Programs &amp; Activities</h2>
+          <p class="section-sub">Regular gatherings that nurture faith, knowledge, and brotherhood.</p>
+        </div>
+
+        <div class="programs-grid">
+
+          <!-- Replace YOUR_PAGE, YOUR_NUMBER, and YOUR_CHANNEL with the masjid's real social links. -->
+          <article class="program-card reveal" style="--delay:0.05s">
+            <a class="program-card-link" href="https://www.facebook.com/YOUR_PAGE" target="_blank"
+              rel="noopener noreferrer">
+              <div class="program-img-wrap">
+                <img src="assets/images/Quran.jpg" alt="Quran used for recitation and study"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="program-body">
+              <div class="program-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg>
+              </div>
+                <h3>Quranic Education</h3>
+                <p>Classes covering Tajweed, recitation, and memorisation for learners of all ages and levels.</p>
+                <span class="program-link">Visit on Facebook <span aria-hidden="true">&#8599;</span></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="program-card reveal" style="--delay:0.1s">
+            <a class="program-card-link" href="https://wa.me/YOUR_NUMBER" target="_blank"
+              rel="noopener noreferrer">
+              <div class="program-img-wrap">
+                <img src="assets/images/hadith.png" alt="Hadith study poster"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="program-body">
+              <div class="program-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10 9 9 9 8 9" />
+                </svg>
+              </div>
+                <h3>Hadith Studies</h3>
+                <p>Regular circles dedicated to understanding the authentic traditions of the Prophet ﷺ, with scholarly
+                  guidance.</p>
+                <span class="program-link">Message on WhatsApp <span aria-hidden="true">&#8599;</span></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="program-card reveal" style="--delay:0.15s">
+            <a class="program-card-link" href="https://www.youtube.com/@YOUR_CHANNEL" target="_blank"
+              rel="noopener noreferrer">
+              <div class="program-img-wrap">
+                <img src="assets/images/jumma.png" alt="Jummah prayer at the mosque"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="program-body">
+              <div class="program-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+              </div>
+                <h3>Jummah Khutbah</h3>
+                <p>Friday sermon and congregational prayer — a weekly gathering of reflection, remembrance, and unity.</p>
+                <span class="program-link">Watch on YouTube <span aria-hidden="true">&#8599;</span></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="program-card reveal" style="--delay:0.2s">
+            <a class="program-card-link" href="https://www.facebook.com/YOUR_PAGE" target="_blank"
+              rel="noopener noreferrer">
+              <div class="program-img-wrap">
+                <img src="assets/images/lecture.jpg" alt="Islamic lecture at the mosque"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="program-body">
+              <div class="program-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polygon points="23 7 16 12 23 17 23 7" />
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
+                </svg>
+              </div>
+                <h3>Islamic Lectures</h3>
+                <p>Periodic talks and seminars on faith, fiqh, and contemporary Islamic topics — open to the community.
+                </p>
+                <span class="program-link">Visit on Facebook <span aria-hidden="true">&#8599;</span></span>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CONTACT / LOCATION ═══════════════════════ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 id="contact-heading">Find Us</h2>
+          <p class="section-sub">We welcome visitors, worshippers, and students at any time.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card reveal-left">
+            <div class="contact-map-graphic" aria-hidden="true">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.1192664691475!2d72.95625687473579!3d33.65407143865165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df97dc7e58aa87%3A0xf3865c41d6ec44bb!2sJamia%20Masjid%20Imam%20Shafi%20Ahl%20e%20Hadith!5e0!3m2!1sen!2s!4v1790581609853!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+          </div>
+
+          <div class="contact-info reveal-right">
+            <div class="contact-detail">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <h3>Location</h3>
+                <p>Islamabad, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <h3>Open Daily</h3>
+                <p>All five daily prayers. Jummah every Friday.</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <div>
+                <h3>All Are Welcome</h3>
+                <p>Open to Muslims of all backgrounds for worship, learning, and community.</p>
+              </div>
+            </div>
+            <a href="https://www.google.com/maps/place/Jamia+Masjid+Imam+Shafi+Ahl+e+Hadith/@33.6540714,72.9562569,17z"
+              target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-map">
+              Open in Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ FINAL CTA ═══════════════════════════════════ -->
+    <section class="section cta-section" aria-labelledby="cta-heading">
+      <div class="cta-pattern" aria-hidden="true"></div>
+      <div class="container">
+        <div class="cta-inner reveal">
+          <h2 id="cta-heading">Join Us in Prayer &amp; Community</h2>
+          <p>Every heart that remembers Allah finds peace. We welcome you.</p>
+          <div class="cta-buttons">
+            <a href="https://www.google.com/maps/place/Jamia+Masjid+Imam+Shafi+Ahl+e+Hadith/@33.6540714,72.9562569,17z"
+              target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Get Directions
+            </a>
+            <a href="#contact" class="btn btn-ghost-light">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">Jamia Masjid<br><em>Imam Shafi Ahl-e-Hadith</em></span>
+          <p>A place of worship, knowledge, and community in Islamabad, Pakistan.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#prayer-times">Prayer Times</a>
+          <a href="#programs">Programs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-location">
+          <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Islamabad, Pakistan
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="footer-year"></span> Jamia Masjid Imam Shafi Ahl-e-Hadith. All rights reserved.
+        </p>
+        <p class="footer-arabic" lang="ar" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+      </div>
+      <p>Developed by <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Hafiz usama</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
